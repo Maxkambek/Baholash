@@ -1,0 +1,88 @@
+.step1 {
+    width: 100%;
+    background-image: url('https://complexvaluation.uz/assets/img/index/stages/1.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
+.step2 {
+    width: 100%;
+    background-image: url('https://complexvaluation.uz/assets/img/index/stages/2.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.step3 {
+    width: 100%;
+    background-image: url('https://complexvaluation.uz/assets/img/index/stages/3.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.step4 {
+    width: 100%;
+    background-image: url('https://complexvaluation.uz/assets/img/index/stages/4.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.step5 {
+    width: 100%;
+    background-image: url('https://complexvaluation.uz/assets/img/index/stages/5.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.step6 {
+    width: 100%;
+    background-image: url('https://complexvaluation.uz/assets/img/index/stages/6.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.step {
+    width: 100%;
+    height: 265px;
+    border-radius: 20px;
+}
+
+.step h4 {
+    width: 40px;
+    height: 35px;
+    background-color: rgb(120, 112, 112);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    padding-top: 2px;
+}
+
+.worklist {
+    padding-top: 20px;
+    background-color: rgba(226, 220, 193, 0.27);
+}
+
+.worklist p {
+    margin-top: 140px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.back_shadow {
+    width: 100%;
+    background-color: rgba(54, 52, 52, 0.488);
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+@media(max-width:992px) {
+    .worklist p {
+        margin-top: 110px;
+      
+    }
+}

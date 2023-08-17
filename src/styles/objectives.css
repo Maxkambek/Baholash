@@ -1,0 +1,101 @@
+.property {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #011835;
+    margin-bottom: 20px;
+    height: 259px;
+    transition: 0.2s;
+}
+
+.property span {
+    font-size: 70px;
+    color: white;
+}
+
+.property p {
+    margin-top: 30px;
+    color: white;
+}
+
+.property:hover {
+    background-color: white;
+
+    transform: scale(1.1);
+    border: 1px solid #011835;
+}
+
+.property:hover span {
+    color: #011835;
+}
+
+.property:hover p {
+    color: #011835;
+}
+
+.otsenki {
+    margin-top: 70px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+.modal_shadow {
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b0;
+}
+
+.modalcha {
+    position: fixed;
+    z-index: 99999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+    width: 50%;
+}
+
+@media(max-width:992px) {
+    .modalcha {
+        width: 70%;
+    }
+}
+
+@media(max-width:767px) {
+    .modalcha {
+        width: 80%;
+    }
+}
+
+@media(max-width:576px) {
+    .modalcha {
+        width: 90%;
+    }
+}
+
+.modal_h {
+    text-align: center;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #011835;
+
+}
+
+.modal_p {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+}

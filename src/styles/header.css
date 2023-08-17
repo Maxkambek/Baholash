@@ -1,0 +1,84 @@
+.header {
+    margin-top: 120px;
+    width: 100%;
+    background-image: url("https://tr.expert/ocenka/img/works-bg1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    height: 750px;
+}
+
+@media(max-width:992px) {
+    .header {
+        height: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .header_left_side {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_left_side p {
+        text-align: center;
+        font-weight: 500;
+        display: none;
+    }
+
+    .header_left_side h2 {
+        text-align: center !important;
+        text-shadow: 3px 3px 3px  black;
+    }
+}
+
+
+/* 
+.cloud {
+    background-image: url('https://tr.expert/img/main-parall-4.png');
+    background-position: right;
+    background-repeat: no-repeat;
+} */
+
+
+.header h2 {
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+.header h2 span {
+    color: #011835;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.header_left_side {
+    width: 877px;
+    padding-top: 100px;
+}
+
+.header_left_side button {
+    width: 300px;
+    height: 58px;
+    background-color: #011835;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.header_left_side button:hover {
+    background-color: white;
+    color: #011835;
+    border: 1px solid #011835;
+    transition: 0.2s;
+}
